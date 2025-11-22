@@ -13,6 +13,7 @@
         <a href="#impacto">Impacto</a>
         <a href="#donar">Donar</a>
         <a href="#voluntariado">Voluntariado</a>
+        <a href="https://www.canva.com/design/DAG4-2hsNLM/9r6F2zLxvqLaubSQ1GMNVQ/view?utm_content=DAG4-2hsNLM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h06f87b3739">Conócenos</a>
       </nav>
       <figure class="hero__photo">
         <img src="/logo.png" alt="Niñas y niños recibiendo apoyo en la campaña de Navidad" loading="lazy" />
@@ -205,7 +206,7 @@
         </div>
         <div class="donation__card">
           <p class="tag tag--ghost">Transparencia</p>
-          <h3>Publicamos cada sol</h3>
+          <h3>Publicamos cada peso</h3>
           <ul class="bullet-list">
             <li>Reporte semanal de ingresos y egresos</li>
             <li>Fotos y firmas de recepción por comunidad</li>
