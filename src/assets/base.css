@@ -1,0 +1,61 @@
+:root {
+  --brand-primary: #8d2114;
+  --brand-secondary: #1f551a;
+  --brand-deep: #0f172a;
+  --brand-cream: #fff6eb;
+  --brand-soft: #f7fbff;
+  --accent-yellow: #c8880a;
+  --text-main: #1f2a44;
+  --text-muted: #5b667c;
+  --border-subtle: #e5e9f1;
+  --shadow-soft: 0 25px 60px rgba(12, 33, 56, 0.14);
+  --radius-lg: 28px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-main);
+  background: radial-gradient(circle at 15% 20%, #fff5f0 0, rgba(255, 245, 240, 0) 35%),
+    radial-gradient(circle at 70% 0%, #e6f6ff 0, rgba(230, 246, 255, 0) 30%),
+    linear-gradient(180deg, #ffffff 0%, #f7fbff 60%, #fff6eb 100%);
+  line-height: 1.7;
+  font-family:
+    'DM Sans',
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Space Grotesk', 'DM Sans', system-ui, sans-serif;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--brand-primary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: rgba(241, 92, 109, 0.12);
+}
