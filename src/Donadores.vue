@@ -1,6 +1,14 @@
 <template>
-
+  <figure class="hero__photo">
+    <img src="/1.jpg" alt="Niñas y niños recibiendo apoyo en la campaña de Navidad" loading="lazy" />
+    <figcaption class="photo__badge">Campaña 2024</figcaption>
+  </figure>
 </template>
+
+<figure class="hero__photo">
+            <img src="/1.jpg" alt="Niñas y niños recibiendo apoyo en la campaña de Navidad" loading="lazy" />
+            <figcaption class="photo__badge">Campaña 2024</figcaption>
+          </figure>
 
 <style scoped>
 .page {
